@@ -84,6 +84,10 @@ p {
     margin: 10px 0;
 }
 
+.pa{
+    text-align: center;
+}
+
 footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #331a5a;
@@ -125,4 +129,22 @@ article div img {
     flex-direction: column;
     align-items: center;
     max-width: 500px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: sans-serif; 
+}
+th, td {
+    border: 1px solid #3e2e81;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    color: white;
+    background-color: #690ae4;
+    font-weight: bold;
 }
