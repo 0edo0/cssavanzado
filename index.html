@@ -11,7 +11,7 @@
 <body style="background-image: url(img/fondo.jpg);">
     <header>
         <h1>css Avanzado</h1>
-        <p>aplicacion profecional con estilos css</p>
+        <p class="pa">aplicacion profecional con estilos css</p>
     </header>
     <nav>
         <ul>
@@ -20,6 +20,7 @@
             <li><a href="#3">diseño moderno</a></li>
             <li><a href="#cua">Galería</a></li>
             <li><a href="#con">Contacto</a></li>
+            <li><a href="#eti">tabla</a></li>
         </ul>
     </nav>
     <main>
@@ -73,6 +74,7 @@
 
     </main>
     <section id="con">
+        <h2>formulario de contactanos</h2>
         <label for="nombre">nombre</label>
         <input type="text" placeholder="nombre"><br></br>
         <label for="numero">telefono</label>
@@ -85,25 +87,64 @@
         <button type="submit"> enviar </button>
     </section>
 
-    <section>
+    <section id="eti">
+        <h2>tabla de algunas etiquetas en css</h2>
         <table>
             <thead>
                 <tr>
-                    <th>dato</th>
-                    <th>informacion</th>
+                    <th>Propiedad CSS</th>
+                    <th>Descripción </th>
+                    <th> Ejemplo </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
+                    <td>color</td>
+                    <td>Define el color del texto de un elemento.</td>
+                    <td>p { color: #11111; }</td>
+                </tr>
+                <tr>
+                    <td>background-color</td>
+                    <td>Establece el color de fondo de un elemento.</td>
+                    <td>div { background-color: lightblue; }</td>
+                </tr>
+                <tr>
+                    <td>font-size</td>
+                    <td>Define el tamaño de la fuente (texto).</td>
+                    <td>h1 { font-size: 2.5em; } /* O 32px, etc. */</td>
+                </tr>
+                <tr>
+                    <td>font-family</td>
+                    <td>Especifica la fuente (tipo de letra) para el texto.</td>
+                    <td>body { font-family: Arial, sans-serif; }</td>
+                </tr>
+                <tr>
+                    <td>font-weight</td>
+                    <td>Establece el grosor (peso) de la fuente (normal, bold, números).</td>
+                    <td>.destacado { font-weight: bold; }</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>Alinea el texto horizontalmente dentro de su contenedor (left, right, center).</td>
+                    <td>.titulo { text-align: center; }</td>
+                </tr>
+                <tr>
+                    <td>margin</td>
+                    <td>Define el espacio exterior alrededor de un elemento (fuera del borde).</td>
+                    <td>img { margin: 15px; } /* Espacio en todos los lados */</td>
+                </tr>
+                <tr>
+                    <td>padding</td>
+                    <td>Define el espacio interior de un elemento (entre el contenido y el borde).</td>
+                    <td>button { padding: 10px 20px; } /* 10px arriba/abajo, 20px izq/der */</td>
                 </tr>
             </tbody>
         </table>
     </section>
     <footer>
-        <p>© 2025 Instituto Superior Túpac Amaru | FrontEnd Avanzado</p>
-        <p>edwin molleapaza kcancahy</p>
-        <p>nª : 9450005646</p>
+        <p class="pa">© 2025 Instituto Superior Túpac Amaru | FrontEnd Avanzado</p>
+        <p class="pa">edwin molleapaza kcancahy</p>
+        <p class="pa">nª : 9450005646</p>
     </footer>
 
 </body>
